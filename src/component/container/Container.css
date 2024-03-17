@@ -1,0 +1,158 @@
+.main-content.css-1oqqzyl-MuiContainer-root{
+    padding-top: 150px;
+}
+.music-section{
+    display: flex;
+    gap:200px;
+    margin-right: 120px;
+}
+.music-section-right-side{
+    padding-top: 100px;
+}
+.music-section-title{
+    color: #3f51b5;
+    font-size:20px
+}
+.music-section-rating{
+    font-size: 40px;
+    margin: 20px 0px;
+}
+.discription{
+    color:var(--primarycolor)
+}
+.watch-vedio-button.css-1rwt2y5-MuiButtonBase-root-MuiButton-root{
+    border-radius: 20px;
+    padding-left:50px;
+    padding-right: 50px;
+    border: 1px solid rgba(63, 81, 181, 0.5);
+    color: rgba(0, 0, 0, 0.87);
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.watch-vedio-button.css-1rwt2y5-MuiButtonBase-root-MuiButton-root:hover{
+    border: 1px solid rgba(13, 17, 42, 0.5);
+}
+
+.storebutton.css-sghohy-MuiButtonBase-root-MuiButton-root{
+   border-radius: 20px;
+    background-color: #3f51b5;
+    padding: 10px 20px;
+}
+.appstorebtn.css-sghohy-MuiButtonBase-root-MuiButton-root {
+   margin-left: 20px;
+}
+.features-section{
+    display: flex;
+   margin-top: 150px; 
+   
+}
+.feaction-section-leftside{
+    margin-top: 120px;
+}
+.section-heading{
+    max-width: 400px;
+    width: 100%;
+}
+.app-feat{
+    max-width: 200px;
+    width:100%
+}
+ .features{
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+    margin-top: 40px;
+} 
+.feat-width{
+    width: 70px;
+}
+.feat-title{
+    font-size:19px;
+    margin:15px 0px;
+    
+}
+.service-section{
+    display:flex;
+    gap:150px;
+    margin-right: 150px;
+    margin-top: 150px; 
+}
+.service-section-right-side{
+    margin-top: 220px;
+}
+.products-section{
+    display: flex;
+    margin-top: 150px;
+}
+.products-section-right-side{
+    margin-top: 100px;
+}
+.products-right-top-section{
+    max-width: 450px;
+    width:100%
+}
+.heading{
+    font-size: 40px;
+}
+.product-section-btns{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.product-btns.css-1e6y48t-MuiButtonBase-root-MuiButton-root{
+    background: rgb(241, 242, 249);
+    color:black;
+    border-radius: 0px;
+    font-size: 12px;
+    padding: 10px 20px;
+}
+ .community-btn.css-1e6y48t-MuiButtonBase-root-MuiButton-root{
+   
+    border-radius: 10px 0px 0px 10px;
+   
+} 
+
+ .teamwork-btn.css-1e6y48t-MuiButtonBase-root-MuiButton-root{
+    
+    border-radius: 0px 10px 10px 0px;
+   
+} 
+.product-btns.css-1e6y48t-MuiButtonBase-root-MuiButton-root:hover{
+    background-color: #3f51b5;
+    color: white;
+    border-radius: 10px;
+}
+/* .bg-color::before{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 80%;
+    margin: 0px 948px -321px -2155px; 
+    content: " ";
+    display: block;
+    opacity: 0.1;
+    z-index: -1;
+    position: absolute;
+    transform: rotate(45deg);
+    background: #3f51b5;
+    border-radius: 300px;
+    transform-origin: right bottom;
+/* margin: 0px 948px -321px -2155px; */
+ */
+/* margin: 0px 900px -511px -2025px; */
+.mobile2{
+    position: relative;
+}
+/* .mobile2-bg::before{
+    top: 14%;
+    left: 0;
+    right: 0;
+    height: 72%;
+    margin: 1184px -2000px 0px 747px;
+    content: " ";
+    display: block;
+    opacity: 0.1;
+    z-index: -1;
+    position: absolute;
+    background: var( --secondarycolor);
+    border-radius: 300px; 
+} */

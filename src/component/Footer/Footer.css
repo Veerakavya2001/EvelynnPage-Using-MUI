@@ -1,0 +1,58 @@
+.footer{
+    background: #011C3A;
+    margin-top: 100px;
+}
+.footer-sec{
+    color: #fff;
+    display: flex;
+    gap:40px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    
+}
+.footer-part{
+    max-width: 500px;
+    width: 100%;
+}
+.text{
+    padding-right: 30px;
+}
+.links-part{
+    max-width: 400px;
+    width: 100%;
+}
+.footer-headings{
+    font-size: 25px;
+}
+.title-headings{
+margin-bottom: 10px;
+}
+
+.footer-btns.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+    color: white;
+    margin-bottom: 10px;
+    padding-right: 60px;
+    
+
+}
+ .input-feild{
+   display: flex;
+   align-items: center;
+   border: 1px solid rgba(45, 44, 44, 0.87);
+   margin: 20px 0px;
+   padding: 10px;
+   border-radius: 5px;
+}
+.input-feild:hover{
+    border: 1px solid black;
+}
+.text-feild{
+    outline: none;
+    background-color: #011C3A;
+    border: none;
+    color: white;
+}
+.subscribe-btn.css-sghohy-MuiButtonBase-root-MuiButton-root {
+    padding: 6px 80px;
+    background-color: var(--secondarycolor)
+}

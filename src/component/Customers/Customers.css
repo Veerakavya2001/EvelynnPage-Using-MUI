@@ -1,0 +1,111 @@
+.customer-sec{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.customers-sec-heading{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.customer-description{
+    width: 420px;
+    color: var(--primarycolor);
+}
+.customers{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 30px;
+  
+    /* position: relative; */
+}
+.customer-card{
+    box-shadow: 0 0 5px 2px rgb(214, 209, 209);
+    border-radius: 10px;
+    width: 15vw;
+   
+}
+.customer-card:hover{
+    border: 1px solid var(--secondarycolor); ;
+}
+
+.customer-card:hover .social-media-icon{
+   color: var(--secondarycolor);
+}
+
+
+
+ .customer-imgs{
+   /* position:absolute; */
+   /* top:-40px; */
+   margin-left: 20px;
+   position: relative;
+   top:-41px;
+
+} 
+.customer-card:hover .custom-pics{
+ 
+    background-color:#8188b2;
+}
+
+.custom-pics{
+    width:100px;
+    height:100px;
+    border:1px solid   var(--secondarycolor);
+    border-radius: 50%;
+    padding: 5px;
+  }
+.sep-customer-description{
+    margin-top: -16px;
+    color: var(--primarycolor);
+    padding-left: 20px;
+}
+.custom-sec-divider.css-ft4jij-MuiDivider-root {
+    background-color: rgba(0, 0, 0, 0.12);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.icon{
+    padding-left: 20px;
+}
+.start-icon.css-i4bv87-MuiSvgIcon-root{
+    color: var(--secondarycolor);
+}
+.user-details{
+    padding: 25px 20px;
+}
+.user-role{
+    color: var(--primarycolor);
+}
+.customer-role{
+    display: flex;
+    justify-content: space-between;
+}
+.social-media-icon{
+    color: grey;
+    
+}
+
+.playstorebtn.css-sghohy-MuiButtonBase-root-MuiButton-root{
+    background-color: var(--secondarycolor);
+    margin: 0px 10px;
+    border-radius: 20px;
+      
+}
+.custom-bottom-part{
+    display: flex;
+    margin: 200px -60px 50px -60px;
+    justify-content: space-between;
+}
+.bottom-left-part{
+    border-radius: 0 48% 48% 0;
+    height: 166px;
+    width: 293px;
+    background-color:#f1f2f9;
+    
+}
+.bottom-right-part{
+    height: 166px;
+    width: 293px;
+    background-color:#f1f2f9;
+    border-radius: 48% 0 0 48% ;
+}

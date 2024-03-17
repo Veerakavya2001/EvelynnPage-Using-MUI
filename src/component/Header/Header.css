@@ -1,0 +1,50 @@
+.header.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1000;
+  position: fixed;
+  box-shadow: 0 0 5px 2px rgb(214, 209, 209);
+}
+
+ .navbars{
+  margin-left: 25px;
+} 
+.toolbar{
+  position: sticky;
+  margin-bottom: 50px;
+} 
+.buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.loginbutton.css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+  border-radius: 15px 0px 0px 15px;
+}
+.loginbutton.css-1rwt2y5-MuiButtonBase-root-MuiButton-root:hover {
+  background-color: blue;
+  color: white;
+}
+.signupbutton.css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+  border-radius: 0px 15px 15px 0px;
+}
+.signupbutton.css-1rwt2y5-MuiButtonBase-root-MuiButton-root:hover {
+  background-color: blue;
+  color: white;
+}
+@media only screen and (max-width: 767px){
+  .logo{
+    display: none;
+  }
+  .menubutton{
+    color: rgba(0, 0, 0, 0.87);
+    background: #ffffff;
+    
+  }
+  .buttons{
+    display: none;
+  }
+}
